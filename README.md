@@ -2,7 +2,7 @@
 
 ## Overview of Project
 
-The purpose of this project was to expand upon the intitial PlanMyTrip app by adding a weather description to the weather data portion as well as selecting four cities to create a travel tour with a route between all of the cities. The code for this can be found in the [Weather_Database]() file, the [Vacation_Search]() file, and the [Vacation_Itinerary]() file. The results of these deliverables will be detailed below.
+The purpose of this project was to expand upon the intitial PlanMyTrip app by adding a weather description to the weather data portion as well as selecting four cities to create a travel tour with a route between all of the cities. The code for this can be found in the [Weather_Database](https://github.com/stwpf01/World_Weather_Analysis/blob/main/Weather_Database/Weather_Database.ipynb) file, the [Vacation_Search](https://github.com/stwpf01/World_Weather_Analysis/blob/main/Vacation_Search/Vacation_Search.ipynb) file, and the [Vacation_Itinerary](https://github.com/stwpf01/World_Weather_Analysis/blob/main/Vacation_Itinerary/Vacation_Itinerary.ipynb) file. The results of these deliverables will be detailed below.
 
 ## Results
 
@@ -19,7 +19,7 @@ The weather description data was stored in the `Current Weather` column because 
 
 This deliverable was to allow customers to input a range in temperature to find a vacation spot within that range. A name of a hotel within that vacation spot would also appear in the search results. An example image showing the results on a map is below:
 
-![WeatherPy_vacation_map]()
+![WeatherPy_vacation_map](https://github.com/stwpf01/World_Weather_Analysis/blob/main/Vacation_Search/WeatherPy_vacation_map.png)
 
 
 To ensure each result had a hotel within the specified limit from the latitude and the longitude of the cities, rows without anything in the `Hotel Name` column were removed. This was done by using this line of code:
@@ -32,7 +32,7 @@ This created a new variable (`clean_hotel_df`) to equal the dataframe `hotel_df`
 
 This deliverable was to creat a route between four nearby cities to the main vacation spot. An example of how this would display is as follows:
 
-![WeatherPy_travel_map]()
+![WeatherPy_travel_map](https://github.com/stwpf01/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map.png)
 
 
 There is an option to decide how to travel between these four cities in the code:
